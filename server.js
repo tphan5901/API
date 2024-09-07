@@ -2,7 +2,7 @@
 const express = require('express');
 const app = express();
 const port = process.env.PORT || 3000; 
-const dataList = require('./index.js'); 
+const dataList = require('index.js'); 
 
 // Root route to display a welcome message or API info
 app.get('/', (req, res) => {
