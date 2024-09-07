@@ -404,6 +404,11 @@ const questionsStorage = [
     { id: "399", Question: "Conditional form of 食べる", answer: "たべたら" , answer2: "tabetara" ,},
 ];
 
+// Welcome message at the root route
+app.get('/', (req, res) => {
+  res.send('Welcome to japanese language API! Use /api/questions to get all questions or /api/questions/:id to get a specific question.');
+});
+
 // Endpoint to get all questions
 app.get('/api/questions', (req, res) => {
   res.json(questionsStorage);
