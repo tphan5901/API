@@ -2,7 +2,7 @@
 const express = require('express');
 const app = express();
 const port = process.env.PORT || 3000; 
-const data = require('./index.js'); 
+const questionsStorage = require('./index.js'); 
 
 // Root route to display a welcome message or API info
 app.get('/', (req, res) => {
@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 
 // Define a route to serve the list as an API
 app.get('/api/data', (req, res) => {
-  res.json(data); // Send the list as a JSON response
+  res.json(questionsStorage); // Send the list as a JSON response
 });
 
 // Start the server
