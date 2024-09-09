@@ -410,7 +410,7 @@ const questionsStorage = [
 
 // Welcome message at the root route
 app.get('/', (req, res) => {
-  res.send('Welcome to japanese language API! Use /api/questions to get all questions or /api/questions/:id to get a specific question.');
+  res.send('Welcome to japanese language API! Use /api/questions to get all questions or /api/questions/:id to return a specific question.');
 });
 
 // Endpoint to get all questions
