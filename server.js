@@ -402,6 +402,8 @@ const questionsStorage = [
     { id: "397", Question: "Provisional forn 食べる", answer: "たべれば" , answer2: "tabereba" ,},
     { id: "398", Question: "Provisional negative form of 食べる", answer: "たべなければ" , answer2: "tabenakereba" ,},
     { id: "399", Question: "Conditional form of 食べる", answer: "たべたら" , answer2: "tabetara" ,},
+    { id: "400", Question: "訛り", answer: "なまり" , answer2: "namari" ,},
+    { id: "401", Question: "援助", answer: "えんじょ" , answer2: "enjiyo" ,},
 ];
 
 // Welcome message at the root route
