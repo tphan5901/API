@@ -407,6 +407,9 @@ const questionsStorage = [
     { id: "402", Question: "食事", answer: "しょくじ" , answer2: "shokuji" ,},
     { id: "403", Question: "痴漢", answer: "ちかん", answer2: "chikan",},
     { id: "404", Question: "ストレス", answer: "すとれす", answer2: "stress",},
+    { id: "405", Question: "成人", answer: "せいじん", answer2: "seijin",},
+    { id: "406", Question: "ご利用", answer: "ごりよう", answer2: "goriyou",}
+    { id: "407", Question: "暴言", answer: "ぼうげん", answer2: "bougen",}
 ];
 
 // Welcome message at the root route
