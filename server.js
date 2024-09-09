@@ -413,7 +413,7 @@ const questionsStorage = [
     { id: "408", Question: "上記", answer: "じょうき", answer2: "jiyouki",}, //
     { id: "409", Question: "行為", answer: "こうい", answer2: "koui",}, // facts
     { id: "410", Question: "即刻", answer: "そっこく", answer2: "sokkoku",}, // immediately
-    { id: "411", Question: "対応", answer: "たいおう", answer2: "taiou",} //deal with
+    { id: "411", Question: "対応", answer: "たいおう", answer2: "taiou",}, //deal with
 
 ];
 
