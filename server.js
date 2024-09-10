@@ -415,6 +415,9 @@ const questionsStorage = [
     { id: "410", Question: "即刻", answer: "そっこく", answer2: "sokkoku",}, // immediately
     { id: "411", Question: "対応", answer: "たいおう", answer2: "taiou",}, //deal with
     { id: "412", Question: "概要欄", answer: "概要欄", answer2: "gaiyouran",}
+    { id: "413", Question: "必ず", answer: "かならず", answer2: "kanarazu",}
+
+    欄必ず
 ];
 
 // Welcome message at the root route
