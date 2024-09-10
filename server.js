@@ -414,10 +414,10 @@ const questionsStorage = [
     { id: "409", Question: "行為", answer: "こうい", answer2: "koui",}, // facts
     { id: "410", Question: "即刻", answer: "そっこく", answer2: "sokkoku",}, // immediately
     { id: "411", Question: "対応", answer: "たいおう", answer2: "taiou",}, //deal with
-    { id: "412", Question: "概要欄", answer: "概要欄", answer2: "gaiyouran",}
-    { id: "413", Question: "必ず", answer: "かならず", answer2: "kanarazu",}
+    { id: "412", Question: "概要欄", answer: "概要欄", answer2: "gaiyouran",},
+    { id: "413", Question: "必ず", answer: "かならず", answer2: "kanarazu",},
+    { id: "414", Question: "ドメスティックバイオレンス", answer: "ドメスティックバイオレンス", answer2: "domestic violence",}
 
-    欄必ず
 ];
 
 // Welcome message at the root route
